@@ -1,0 +1,28 @@
+{
+    "name": "𝐌𝐨𝐨𝐧_𝐀𝐈", 
+    "logo": "https://telegra.ph/file/66b90ae79e405325935f2.jpg",
+    "description": "An Advanced Telegram UserId Chatbot.",
+    "env": {
+        "STRING": {
+            "description": "Pyrogram String session of your account",
+            "required": true
+        },        
+        "MONGO_URL": {
+            "description": "mongo db url here",
+            "required": true
+        },
+        "API_ID": {
+            "description": "telegram api id here",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "telegram api hash here",
+            "required": true
+        }
+    },
+    "addons": [
+        {
+            "plan": "heroku-postgresql"
+        }
+    ]
+}
